@@ -46,18 +46,20 @@ public class Main {
                 player1roll = dice();
                 player2roll = dice();
 
-                //Spiller 1 kaster igen
+
                 System.out.println();
                 System.out.println("Both players have over 40 points! ");
+
+                //Spiller 1 kaster igen
                 System.out.println("Player 1! Hit ENTER to roll");
                 String pause3 = input.nextLine();
-                System.out.println("Player 1 roll "+ player1roll);
+                System.out.println("Player 1 rolled "+ player1roll);
                 System.out.println("");
 
                 //Spiller 2 kaster igen
                 System.out.println("Player 2! Hit ENTER to roll");
                 String pause4 = input.nextLine();
-                System.out.println("Player 2 roll "+ player2roll);
+                System.out.println("Player 2 rolled "+ player2roll);
                 System.out.println("");
 
                 //Checker hvem det slog det højeste slag og vinder
@@ -78,13 +80,13 @@ public class Main {
                     //Spiller 1 kaster igen
                     System.out.println("the same? Roll again player 1! Hit ENTER");
                     String pause5 = input.nextLine();
-                    System.out.println("Player 1 roll "+ player1roll);
+                    System.out.println("Player 1 rolled "+ player1roll);
                     System.out.println();
 
                     //Spiller 2 kaster igen
                     System.out.println("Player 2! Hit ENTER to roll");
                     String pause6 = input.nextLine();
-                    System.out.println("Player 2 roll "+ player2roll);
+                    System.out.println("Player 2 rolled "+ player2roll);
                     System.out.println();
 
                     //Checker hvem der har vundet

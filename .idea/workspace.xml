@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77aaeace-03fa-4aeb-9581-ca1075f00ecc" name="Changes" comment="Test af normalfordeling-første udgave">
+    <list default="true" id="77aaeace-03fa-4aeb-9581-ca1075f00ecc" name="Changes" comment="Tilføj kommentar og rettede ind på testen.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestDice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spil/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestDice">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Spil.Main" />
       <module name="_22_del1" />
@@ -89,9 +88,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestDice" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664104830141</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Tilføj kommentar og rettede ind på testen.">
+      <created>1664107461471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664107461471</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +165,7 @@
     <MESSAGE value="1. Initial commit" />
     <MESSAGE value="added TestDice folder" />
     <MESSAGE value="Test af normalfordeling-første udgave" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test af normalfordeling-første udgave" />
+    <MESSAGE value="Tilføj kommentar og rettede ind på testen." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tilføj kommentar og rettede ind på testen." />
   </component>
 </project>

@@ -42,18 +42,22 @@ public class Main {
                 player1roll = dice();
                 player2roll = dice();
                 if (player1roll > player2roll){
+                    System.out.println("Player 1 rolls " + player1roll + "! And Player 2 rolls " + player2roll + "!");
                     System.out.println("Player 1 wins!!!");
                 }
                 if (player1roll < player2roll){
+                    System.out.println("Player 1 rolls " + player1roll + "! And Player 2 rolls " + player2roll + "!");
                     System.out.println("Player 2 wins!!!");
                 }
-                while (player1sum==player2sum){
+                while (player1roll==player2roll){
                     player1roll = dice();
                     player2roll = dice();
                     if (player1roll > player2roll){
+                        System.out.println("Player 1 rolls " + player1roll + "! And Player 2 rolls " + player2roll + "!");
                         System.out.println("Player 1 wins!!!");
                     }
                     if (player1roll < player2roll){
+                        System.out.println("Player 1 rolls " + player1roll + "! And Player 2 rolls " + player2roll + "!");
                         System.out.println("Player 2 wins!!!");
                     }
                 }

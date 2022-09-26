@@ -7,49 +7,41 @@ import java.lang.Math;
 public class Die {
     //Private attributter for vores terninger
     private final int Max = 6;
-    //private final int maxSum = Max + Max;
-    private int faceValue1;
-    //private int faceValue2;
+    private int faceValue;
 
     //Konstruktør for terningerne
     public Die() {
-        faceValue1 = 1;
-        //faceValue2 = 1;
-}
+        faceValue = 1;
+
+    }
 
     //Terningerne bygges ud fra samme princip som TestDice, da vores test viser en normalfordeling
     public int roll1() {
-        faceValue1 = (int) (Math.random() * Max + 1);
-            return faceValue1;
+        faceValue = (int) (Math.random() * Max + 1);
+            return faceValue;
     }
-    /*public int roll2() {
-        faceValue2 = (int) (Math.random() * Max + 1);
-        return faceValue2;
-    }*/
 
     //Get-metode til at se den nuværende faceValue af terningerne
-    public int getFaceValue1() {
-        return faceValue1;
+    public int getFaceValue() {
+        return faceValue;
     }
-    /*public int getFaceValue2() {
-        return faceValue2;
-    }*/
 
     //Set-metode til ændre værdien af faceValue1 og faceValue2
-    public int setFaceValue1(int x1) {
-        faceValue1 = x1;
-        return x1;
+    public int setFaceValue(int x) {
+        faceValue = x;
+        return x;
     }
-    /*public int setFaceValue2(int x1) {
-        faceValue1 = x1;
-        return x1;
-        {*/
+
+   //Metode til at få værdien af 2 terninger
     public int getSum(int a, int b) {
             return a + b;
     }
+    public boolean getEns(int a, int b) {
+        if (a == b) {
+            return true;
+        } else {
+            return false;
+        }
 
-
-
-
-
+    }
 }

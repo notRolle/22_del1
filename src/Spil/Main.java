@@ -22,12 +22,15 @@ public class Main {
             System.out.println("You rolled "+player1roll+" and have "+player1sum + "points!"); //Printer kast og points
 
             //Spiller 2 tur
+            System.out.println();
             System.out.println("________________________________________");
             System.out.println("Player 2! Hit ENTER to roll! ");
             String pause2 = input.nextLine();
             player2roll = dice();
             player2sum += player2roll;
             System.out.println("You rolled "+player2roll+" and have "+player2sum + "points!");
+            System.out.println();
+
 
 
             //Checker om spiller 1 har vundet

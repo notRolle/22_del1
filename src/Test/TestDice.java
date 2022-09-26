@@ -20,6 +20,7 @@ public class TestDice {
         for (int j = 0; j <1000 ; j++) {
             // Notere hvad der blev slået for hvert kast i num array.
             num[dice()-2]+=1;
+            //System.out.println(dice()); // Data til histogram (Printer Alle Udfald)
         }
         //printer antaller at hvert slag.
         for (int i = 0; i < num.length; i++) {

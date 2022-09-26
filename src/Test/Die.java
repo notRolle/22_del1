@@ -7,7 +7,7 @@ import java.lang.Math;
 public class Die {
     //Private attributter for vores terninger
     private final int Max = 6;
-    private final int maxSum = Max + Max;
+    //private final int maxSum = Max + Max;
     private int faceValue1;
     //private int faceValue2;
 
@@ -44,11 +44,9 @@ public class Die {
         faceValue1 = x1;
         return x1;
         {*/
-    /*public int getSum(int faceValue1 + faceValue2) {
-        Sum = faceValue1 + faceValue2;
-        return sum;
-
-    }*/
+    public int getSum(int a, int b) {
+            return a + b;
+    }
 
 
 

@@ -8,10 +8,10 @@ public class Main {
     public static void main(String[] args) {
 
         //Initialiserer spiller 1 og 2. sum = antal points, roll = værdi af kast.
-        int player1sum=0, player2sum=0;
+        int player1sum = 0, player2sum = 0;
 
         // Looper skiftevis kast, så begge spillere når at kaste lige mange gange
-        while (player1sum<40 || player2sum<40){
+        while (player1sum < 40 || player2sum < 40){
             Scanner input = new Scanner(System.in);
 
             //implementerer terning

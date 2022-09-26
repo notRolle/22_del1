@@ -44,11 +44,11 @@ public class Die {
         faceValue1 = x1;
         return x1;
         {*/
-    public int getSum(int faceValue1 + faceValue2) {
+    /*public int getSum(int faceValue1 + faceValue2) {
         Sum = faceValue1 + faceValue2;
         return sum;
 
-    }
+    }*/
 
 
 

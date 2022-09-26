@@ -68,9 +68,11 @@ public class Main {
                 //Checker hvem det slog det højeste slag og vinder
                 if (player1roll > player2roll){
                     System.out.println("Player 1 wins!!!");
+                    break;
                 }
                 if (player1roll < player2roll){
                     System.out.println("Player 2 wins!!!");
+                    break;
                 }
 
                 //Hvis de slog det samme looper den indtil en vinder.
@@ -95,9 +97,11 @@ public class Main {
                     //Checker hvem der har vundet
                     if (player1roll > player2roll){
                         System.out.println("Player 1 wins!!!");
+                        break;
                     }
                     if (player1roll < player2roll){
                         System.out.println("Player 2 wins!!!");
+                        break;
                     }
                 }
             }

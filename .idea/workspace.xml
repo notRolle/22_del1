@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77aaeace-03fa-4aeb-9581-ca1075f00ecc" name="Changes" comment="Tilføjede flere linjeskift">
-      <change beforePath="$PROJECT_DIR$/src/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/Test.java" afterDir="false" />
+    <list default="true" id="77aaeace-03fa-4aeb-9581-ca1075f00ecc" name="Changes" comment="1. Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Spil/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +19,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -38,33 +35,16 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Spil.Main" />
       <module name="_22_del1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test.Test" />
-      <module name="_22_del1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
+          <option name="PATTERN" value="Spil.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,7 +67,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestDice" />
       </list>
@@ -110,70 +89,7 @@
       <option name="project" value="LOCAL" />
       <updated>1663934863973</updated>
     </task>
-    <task id="LOCAL-00002" summary="added TestDice folder">
-      <created>1664102736051</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1664102736051</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Test af normalfordeling-første udgave">
-      <created>1664104830141</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1664104830141</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Tilføj kommentar og rettede ind på testen.">
-      <created>1664107461471</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1664107461471</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Første udgave af spillet">
-      <created>1664112705173</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1664112705174</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Tilføjet vinderbetingelser">
-      <created>1664113902953</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1664113902953</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Tilføjet noter og stops for at forbedre spille oplevelsen">
-      <created>1664115325533</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1664115325533</updated>
-    </task>
-    <task id="LOCAL-00008" summary="rettet stavefejl">
-      <created>1664115860345</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1664115860345</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Tilføjede flere linjeskift">
-      <created>1664179740246</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1664179740246</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Tilføjede flere linjeskift">
-      <created>1664181897112</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1664181897112</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,19 +100,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="Development-Branch" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -204,14 +108,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. Initial commit" />
-    <MESSAGE value="added TestDice folder" />
-    <MESSAGE value="Test af normalfordeling-første udgave" />
-    <MESSAGE value="Tilføj kommentar og rettede ind på testen." />
-    <MESSAGE value="Første udgave af spillet" />
-    <MESSAGE value="Tilføjet vinderbetingelser" />
-    <MESSAGE value="Tilføjet noter og stops for at forbedre spille oplevelsen" />
-    <MESSAGE value="rettet stavefejl" />
-    <MESSAGE value="Tilføjede flere linjeskift" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tilføjede flere linjeskift" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Initial commit" />
   </component>
 </project>

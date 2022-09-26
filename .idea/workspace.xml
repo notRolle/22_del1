@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77aaeace-03fa-4aeb-9581-ca1075f00ecc" name="Changes" comment="rettet stavefejl">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/TestDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestDice.java" afterDir="false" />
-    </list>
+    <list default="true" id="77aaeace-03fa-4aeb-9581-ca1075f00ecc" name="Changes" comment="Tilføjede flere linjeskift" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664115860345</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Tilføjede flere linjeskift">
+      <created>1664179740246</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1664179740246</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +202,7 @@
     <MESSAGE value="Tilføjet vinderbetingelser" />
     <MESSAGE value="Tilføjet noter og stops for at forbedre spille oplevelsen" />
     <MESSAGE value="rettet stavefejl" />
-    <option name="LAST_COMMIT_MESSAGE" value="rettet stavefejl" />
+    <MESSAGE value="Tilføjede flere linjeskift" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tilføjede flere linjeskift" />
   </component>
 </project>

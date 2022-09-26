@@ -87,7 +87,7 @@ public class Main {
 
 
                     //Spiller 1 kaster igen
-                    System.out.println("the same? Roll again player 1! Hit ENTER");
+                    System.out.println("The same? Roll again player 1! Hit ENTER");
                     String pause5 = input.nextLine();
                     System.out.println("Player 1 rolled "+ sum1);
                     System.out.println();

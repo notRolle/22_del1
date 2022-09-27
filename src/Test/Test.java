@@ -1,10 +1,5 @@
 package Test;
-import java.lang.Math;
-
 import java.util.Scanner;
-
-import static Test.TestDice.*;
-
 public class Test {
     public static void main(String[] args) {
         //Initialisere spiller 1 og 2. sum=antal points, roll=værdi af kast.

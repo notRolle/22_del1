@@ -5,34 +5,34 @@ import java.lang.Math;
 
 
 public class Die {
-    //Private attributter for vores terninger
+    //Private attributter for vores terning
     private final int Max = 6;
     private int faceValue;
 
-    //Konstruktør for terningerne
+    //Konstruktør for terningen
     public Die() {
         faceValue = 1;
 
     }
 
-    //Terningerne bygges ud fra samme princip som TestDice, da vores test viser en normalfordeling
+    //Terningen bygges ud fra samme princip som TestDice, da vores test viser en normalfordeling
     public int roll1() {
         faceValue = (int) (Math.random() * Max + 1);
             return faceValue;
     }
 
-    //Get-metode til at se den nuværende faceValue af terningerne
+    //Get-metode til at se den nuværende faceValue af terningen
     public int getFaceValue() {
         return faceValue;
     }
 
-    //Set-metode til ændre værdien af faceValue1 og faceValue2
+    //Set-metode til ændre værdien af faceValue
     public int setFaceValue(int x) {
         faceValue = x;
         return x;
     }
 
-   //Metode til at få værdien af 2 terninger
+   //Metode til at få værdien af 2 instanser af terninger
     public int getSum(int a, int b) {
             return a + b;
     }

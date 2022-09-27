@@ -7,13 +7,13 @@ public class Main {
         //Initialiserer spiller 1 og 2. sum = antal points, roll = værdi af kast.
         int player1sum = 0, player2sum = 0;
 
+        //implementerer terning
+        Die die1 = new Die();
+        Die die2 = new Die();
+
         // Looper skiftevis kast, så begge spillere når at kaste lige mange gange
         while (player1sum < 40 || player2sum < 40){
             Scanner input = new Scanner(System.in);
-
-            //implementerer terning
-            Die die1 = new Die();
-            Die die2 = new Die();
 
             //Spiller 1 kast
             int player1dice1 = die1.roll1();

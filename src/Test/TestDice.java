@@ -2,18 +2,6 @@ package Test;
 
 public class TestDice {
 
-    //Test Terning
-    public static int dice(){
-        int dice1 = (int) (Math.random() * 6 + 1);
-        int dice2 = (int) (Math.random() * 6 + 1);
-        //Beregner og printer summen af øjne
-        return dice1 + dice2;
-    }
-
-
-
-
-
     public static void main(String[] args) {
 
         //-------------------------Tester normalfordeling--------------------------------

@@ -1,6 +1,6 @@
 package Test;
 
-public class TestDice {
+public class TestAfDice {
 
     public static void main(String[] args) {
 

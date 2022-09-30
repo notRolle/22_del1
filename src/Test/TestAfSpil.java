@@ -1,6 +1,6 @@
 package Test;
 import java.util.Scanner;
-public class Test {
+public class TestAfSpil {
     public static void main(String[] args) {
         //Initialisere spiller 1 og 2. sum=antal points, roll=værdi af kast.
         int player1roll=0, player1sum=0, player2roll=0, player2sum=0;

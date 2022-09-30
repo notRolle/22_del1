@@ -1,0 +1,24 @@
+Index: src/Test/TestDice.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Test;\n\npublic class TestDice {\n\n    //Test Terning\n    public static int dice(){\n        int dice1 = (int) (Math.random() * 6 + 1);\n        int dice2 = (int) (Math.random() * 6 + 1);\n        //Beregner og printer summen af øjne\n        return dice1 + dice2;\n    }\n    public static void main(String[] args) {\n\n        //-------------------------Tester normalfordeling--------------------------------\n\n        //Tomt array, med samme antal værdier som summen af to terninger kan give.\n        int[] num = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};\n\n        //Loop for 1000 kast\n        for (int j = 0; j <1000 ; j++) {\n            // Notere hvad der blev slået for hvert kast i num array.\n            num[dice()-2]+=1;\n            //System.out.println(dice()); // Data til histogram (Printer Alle Udfald)\n        }\n        //printer antaller at hvert slag.\n        for (int i = 0; i < num.length; i++) {\n            System.out.println((i+2)+\": \" + num[i]);\n        }\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Test/TestDice.java b/src/Test/TestDice.java
+--- a/src/Test/TestDice.java	
++++ b/src/Test/TestDice.java	
+@@ -17,9 +17,11 @@
+         int[] num = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+ 
+         //Loop for 1000 kast
+-        for (int j = 0; j <1000 ; j++) {
++        for (int j = 0; j <3 ; j++) {
+             // Notere hvad der blev slået for hvert kast i num array.
+-            num[dice()-2]+=1;
++            int x = dice();
++            num[x-2]+=1;
++            System.out.println(x);
+             //System.out.println(dice()); // Data til histogram (Printer Alle Udfald)
+         }
+         //printer antaller at hvert slag.

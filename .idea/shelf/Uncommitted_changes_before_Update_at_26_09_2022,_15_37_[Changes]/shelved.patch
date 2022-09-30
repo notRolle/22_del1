@@ -1,0 +1,137 @@
+Index: src/Test/TestDice.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Test;\n\npublic class TestDice {\n\n    //Test Terning\n    public static int dice(){\n        int dice1 = (int) (Math.random() * 6 + 1);\n        int dice2 = (int) (Math.random() * 6 + 1);\n        //Beregner og printer summen af øjne\n        return dice1 + dice2;\n    }\n    public static void main(String[] args) {\n\n        //-------------------------Tester normalfordeling--------------------------------\n\n        //Tomt array, med samme antal værdier som summen af to terninger kan give.\n        int[] num = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};\n\n        //Loop for 1000 kast\n        for (int j = 0; j <1000 ; j++) {\n            // Notere hvad der blev slået for hvert kast i num array.\n            num[dice()-2]+=1;\n            //System.out.println(dice()); // Data til histogram (Printer Alle Udfald)\n        }\n        //printer antaller at hvert slag.\n        for (int i = 0; i < num.length; i++) {\n            System.out.println((i+2)+\": \" + num[i]);\n        }\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Test/TestDice.java b/src/Test/TestDice.java
+--- a/src/Test/TestDice.java	(revision 713bf4b76a11efe97945c33005e5ce5723ea29c5)
++++ b/src/Test/TestDice.java	(date 1664195956768)
+@@ -17,9 +17,11 @@
+         int[] num = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+ 
+         //Loop for 1000 kast
+-        for (int j = 0; j <1000 ; j++) {
++        for (int j = 0; j <3 ; j++) {
+             // Notere hvad der blev slået for hvert kast i num array.
+-            num[dice()-2]+=1;
++            int x = dice();
++            num[x-2]+=1;
++            System.out.println(x);
+             //System.out.println(dice()); // Data til histogram (Printer Alle Udfald)
+         }
+         //printer antaller at hvert slag.
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"77aaeace-03fa-4aeb-9581-ca1075f00ecc\" name=\"Changes\" comment=\"1. Initial commit\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/Spil/Main.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/Spil/Main.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2FAU6WRh0v2IUl8oMZxbX0EFoEu\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\n    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;\n  }\n}</component>\n  <component name=\"RunManager\" selected=\"Application.Main\">\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Spil.Main\" />\n      <module name=\"_22_del1\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"Spil.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"TestDice\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\n      <option name=\"MAIN_CLASS_NAME\" value=\"Test.TestDice\" />\n      <module name=\"_22_del1\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"Test.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Application.Main\" />\n        <item itemvalue=\"Application.TestDice\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"77aaeace-03fa-4aeb-9581-ca1075f00ecc\" name=\"Changes\" comment=\"\" />\n      <created>1663934208428</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1663934208428</updated>\n      <workItem from=\"1663934209654\" duration=\"1748000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"1. Initial commit\">\n      <created>1663934863973</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1663934863973</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"1. Initial commit\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"1. Initial commit\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 713bf4b76a11efe97945c33005e5ce5723ea29c5)
++++ b/.idea/workspace.xml	(date 1664199426134)
+@@ -1,10 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="77aaeace-03fa-4aeb-9581-ca1075f00ecc" name="Changes" comment="1. Initial commit">
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++    <list default="true" id="77aaeace-03fa-4aeb-9581-ca1075f00ecc" name="Changes" comment="Version 1.0">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/Spil/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spil/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/Test/TestDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/TestDice.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -19,6 +18,11 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="MarkdownSettingsMigration">
+@@ -45,6 +49,19 @@
+       <extension name="coverage">
+         <pattern>
+           <option name="PATTERN" value="Spil.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Test.Test" />
++      <module name="_22_del1" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="Test.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -61,14 +78,30 @@
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="JetRunConfigurationType">
++      <module name="_22_del1" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
++      <module name="_22_del1" />
++      <option name="filePath" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.TestDice" />
+         <item itemvalue="Application.Main" />
+         <item itemvalue="Application.TestDice" />
++        <item itemvalue="Application.Test" />
++        <item itemvalue="Application.Main" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -89,7 +122,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1663934863973</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Færdig version 1">
++      <created>1664194547632</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1664194547632</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -108,6 +148,8 @@
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="1. Initial commit" />
+-    <option name="LAST_COMMIT_MESSAGE" value="1. Initial commit" />
++    <MESSAGE value="Færdig version 1" />
++    <MESSAGE value="Version 1.0" />
++    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0" />
+   </component>
+ </project>
+\ No newline at end of file

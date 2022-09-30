@@ -1,21 +1,24 @@
 package Spil;
+
 import Test.Die;
+
 import java.util.Scanner;
-public class Main {
+
+public class DiceGame {
     public static void main(String[] args) {
 
         //Initialiserer spiller 1 og 2. sum = antal points, roll = værdi af kast.
         int player1sum = 0, player2sum = 0;
 
         //Opretter spillerenes navne
-            Scanner myObj = new Scanner(System.in);  // Ny scanner
-            System.out.println("Welcome! Player 1. Enter username");
-            String userName1 = myObj.nextLine();  // Læser første spillers navn
-            System.out.println("Player 1's username is: " + userName1);  // Viser første userinput
+        Scanner myObj = new Scanner(System.in);  // Ny scanner
+        System.out.println("Welcome! Player 1. Enter username");
+        String userName1 = myObj.nextLine();  // Læser første spillers navn
+        System.out.println("Player 1's username is: " + userName1);  // Viser første userinput
 
-            System.out.println("Player 2. Enter username");
-            String userName2 = myObj.nextLine();  // Læser anden spillers navn
-            System.out.println("Player 2's username is: " + userName2);  // Viser andet userinput
+        System.out.println("Player 2. Enter username");
+        String userName2 = myObj.nextLine();  // Læser anden spillers navn
+        System.out.println("Player 2's username is: " + userName2);  // Viser andet userinput
 
         //implementerer terning
         Die die1 = new Die();
